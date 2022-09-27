@@ -2,7 +2,7 @@ Cloner un repo
 git clone https://github.com/mourad-aziz/git-begins.git
  
 Les 3 commandes de push (dans l’odre)
-    git init
+    #git init
     git add 
     git commit -m "Add existing project files to Git"
     git push -u -f origin master.
@@ -13,3 +13,12 @@ pull
     git fetch
     git status
     git pull 
+
+
+branch
+
+ créer une branche
+    git branch [nom-de-branche]
+
+ basculer vers la branche
+    git checkout [nom-de-branche]	
